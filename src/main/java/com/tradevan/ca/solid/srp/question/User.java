@@ -62,4 +62,8 @@ public class User {
     public int getDollarsAmount() {
         return dollarsAmount;
     }
+
+    public void setRole(Role role) {
+        this.role = role;
+    }
 }
